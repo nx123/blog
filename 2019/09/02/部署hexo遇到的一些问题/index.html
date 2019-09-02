@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next muse use-motion" lang="en">
+<html class="theme-next gemini use-motion" lang="zh-CN">
 <head><meta name="generator" content="Hexo 3.9.0">
   <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -83,9 +83,9 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="部署hexo遇到的一些问题">
 <meta property="og:url" content="https://nx123.github.io/blog/2019/09/02/部署hexo遇到的一些问题/index.html">
-<meta property="og:site_name" content="niexin">
+<meta property="og:site_name" content="聂鑫的学习笔记">
 <meta property="og:description" content="配置文件_config.yml导致的问题hexo d无反应1234deploy:  type: git  repo: git@github.com:nx123/blog.git  branch: master  这里每个冒号之后，应该手动添加一个空格，不然提交的时候提交不了。（假如hexo d的时候没有任何报错，同时也没有任何语句输出，那应该就是这个问题） GitHub Pages不加载主题123">
-<meta property="og:locale" content="en">
+<meta property="og:locale" content="zh-CN">
 <meta property="og:updated_time" content="2019-09-02T03:51:41.232Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="部署hexo遇到的一些问题">
@@ -97,7 +97,7 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/blog/',
-    scheme: 'Muse',
+    scheme: 'Gemini',
     version: '5.1.4',
     sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
     fancybox: true,
@@ -125,7 +125,7 @@
 
 
 
-  <title>部署hexo遇到的一些问题 | niexin</title>
+  <title>部署hexo遇到的一些问题 | 聂鑫的学习笔记</title>
   
 
 
@@ -137,7 +137,7 @@
 
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="en">
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
 
   
   
@@ -155,12 +155,12 @@
     <div class="custom-logo-site-title">
       <a href="/blog/" class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">niexin</span>
+        <span class="site-title">聂鑫的学习笔记</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
       
-        <p class="site-subtitle"></p>
+        <p class="site-subtitle">记录学习过程</p>
       
   </div>
 
@@ -186,6 +186,36 @@
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
             
             Home
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/blog/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br>
+            
+            About
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/blog/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
+            
+            Tags
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/blog/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br>
+            
+            Categories
           </a>
         </li>
       
@@ -235,13 +265,13 @@
     <link itemprop="mainEntityOfPage" href="https://nx123.github.io/blog/blog/2019/09/02/部署hexo遇到的一些问题/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="niexin">
+      <meta itemprop="name" content="聂鑫">
       <meta itemprop="description" content>
       <meta itemprop="image" content="/blog/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="niexin">
+      <meta itemprop="name" content="聂鑫的学习笔记">
     </span>
 
     
@@ -299,10 +329,10 @@
       
 
       
-        <h1 id="配置文件-config-yml导致的问题"><a href="#配置文件-config-yml导致的问题" class="headerlink" title="配置文件_config.yml导致的问题"></a>配置文件<code>_config.yml</code>导致的问题</h1><h2 id="hexo-d无反应"><a href="#hexo-d无反应" class="headerlink" title="hexo d无反应"></a>hexo d无反应</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: git@github.com:nx123/blog.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+        <h1 id="配置文件-config-yml导致的问题"><a href="#配置文件-config-yml导致的问题" class="headerlink" title="配置文件_config.yml导致的问题"></a>配置文件<code>_config.yml</code>导致的问题</h1><h2 id="hexo-d无反应"><a href="#hexo-d无反应" class="headerlink" title="hexo d无反应"></a>hexo d无反应</h2><figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">deploy</span>:</span><br><span class="line">  <span class="attribute">type</span>: git</span><br><span class="line">  <span class="attribute">repo</span>: git<span class="variable">@github</span>.<span class="attribute">com</span>:nx123/blog.git</span><br><span class="line">  <span class="attribute">branch</span>: master</span><br></pre></td></tr></table></figure>
 
 <p>这里每个冒号之后，应该手动添加一个空格，不然提交的时候提交不了。（假如<code>hexo d</code>的时候没有任何报错，同时也没有任何语句输出，那应该就是这个问题）</p>
-<h2 id="GitHub-Pages不加载主题"><a href="#GitHub-Pages不加载主题" class="headerlink" title="GitHub Pages不加载主题"></a>GitHub Pages不加载主题</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">url: https://nx123.github.io/blog</span><br><span class="line">root: /blog/</span><br><span class="line">permalink: :year/:month/:day/:title/</span><br><span class="line">permalink_defaults:</span><br></pre></td></tr></table></figure>
+<h2 id="GitHub-Pages不加载主题"><a href="#GitHub-Pages不加载主题" class="headerlink" title="GitHub Pages不加载主题"></a>GitHub Pages不加载主题</h2><figure class="highlight elixir"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="symbol">url:</span> <span class="symbol">https:</span>/<span class="regexp">/nx123.github.io/blog</span></span><br><span class="line"><span class="symbol">root:</span> /blog/</span><br><span class="line"><span class="symbol">permalink:</span> <span class="symbol">:year/</span><span class="symbol">:month/</span><span class="symbol">:day/</span><span class="symbol">:title/</span></span><br><span class="line"><span class="symbol">permalink_defaults:</span></span><br></pre></td></tr></table></figure>
 
 <p>主要是区分url和root，url是GitHub给你分配的GitHub Pages地址，root是你的仓库名</p>
 
@@ -403,8 +433,8 @@
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
-              <p class="site-author-name" itemprop="name">niexin</p>
-              <p class="site-description motion-element" itemprop="description"></p>
+              <p class="site-author-name" itemprop="name">聂鑫</p>
+              <p class="site-description motion-element" itemprop="description">聂鑫的学习笔记，主要涉及计算机相关知识</p>
           </div>
 
           <nav class="site-state motion-element">
@@ -475,7 +505,7 @@
   <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">niexin</span>
+  <span class="author" itemprop="copyrightHolder">聂鑫</span>
 
   
 </div>
@@ -489,7 +519,7 @@
 
 
 
-  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.4</div>
+  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Gemini</a> v5.1.4</div>
 
 
 
@@ -588,6 +618,13 @@
 
   
   
+
+
+  <script type="text/javascript" src="/blog/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/blog/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
 
   
   <script type="text/javascript" src="/blog/js/src/scrollspy.js?v=5.1.4"></script>
